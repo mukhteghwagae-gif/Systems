@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Systems</string>
+    <string name="app_description">NZR1 Advanced Control Interface</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_monitor">Monitor</string>
+    <string name="nav_network">Network</string>
+    <string name="nav_security">Security</string>
+    <string name="nav_assistant">AI</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_settings">Settings</string>
+</resources>

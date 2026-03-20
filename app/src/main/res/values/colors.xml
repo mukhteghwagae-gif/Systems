@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="deep_void">#FF050508</color>
+    <color name="surface_dark">#FF0D0D18</color>
+    <color name="cyan_core">#FF00E5FF</color>
+    <color name="purple_core">#FF7C4DFF</color>
+    <color name="green_core">#FF00E676</color>
+    <color name="red_core">#FFFF1744</color>
+    <color name="text_primary">#FFE8E8FF</color>
+    <color name="text_muted">#FF505070</color>
+</resources>

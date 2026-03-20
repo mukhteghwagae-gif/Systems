@@ -1,0 +1,7 @@
+-keep class systems.nzr1.** { *; }
+-keep class * extends androidx.room.RoomDatabase
+-keep @androidx.room.Entity class *
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle glow -->
+    <path
+        android:fillColor="#1A00E5FF"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+
+    <!-- Outer ring -->
+    <path
+        android:fillColor="#0000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M54,54m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0"/>
+
+    <!-- Middle ring -->
+    <path
+        android:fillColor="#0000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.6"
+        android:pathData="M54,54m-34,0a34,34 0,1 1,68 0a34,34 0,1 1,-68 0"/>
+
+    <!-- Hexagon -->
+    <path
+        android:fillColor="#1A00E5FF"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M54,36 L68,44 L68,60 L54,68 L40,60 L40,44 Z"/>
+
+    <!-- S letter in center -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M49,44 C49,44 58,44 58,48 C58,52 49,52 49,56 C49,60 58,60 58,60"/>
+    <path
+        android:fillColor="#0000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M49,44 C49,44 59,44 59,49 C59,54 49,54 49,59 C49,64 59,64 59,64"/>
+
+    <!-- Corner tick marks -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M14,14 L14,20 L20,14 Z"/>
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M94,14 L94,20 L88,14 Z"/>
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M14,94 L14,88 L20,94 Z"/>
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M94,94 L94,88 L88,94 Z"/>
+
+</vector>
