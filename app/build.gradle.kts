@@ -123,8 +123,8 @@ dependencies {
     // ── WorkManager ──────────────────────────────────────────────────────
     implementation("androidx.work:work-runtime-ktx:2.9.0")
 
-    // ── Local JARs / AARs (downloaded by CI or present locally) ─────────
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
+    // ── Local JARs (downloaded by CI) ────────────────────────────────────
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
     // ── Tests ────────────────────────────────────────────────────────────
     testImplementation("junit:junit:4.13.2")
